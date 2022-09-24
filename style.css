@@ -13,7 +13,6 @@ body{
 .container{
     margin: 0;
     width: 100%;
-    
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -23,7 +22,7 @@ body{
 
 
 .left{
-    width: 500px;
+    flex: 0.5;
     position: relative;
 }
 
@@ -33,6 +32,12 @@ body{
     position: relative;
     bottom: 500px;
     background-color: black;
+    opacity: 0.33;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase ;
 }
 
 .logo > img{
@@ -41,10 +46,14 @@ body{
 }
 
 img{
-    width: 500px;
+    width: 600px;
     height: 100vh;
 }
 
+.right
+{
+    flex: 1;
+}
 
 
 .description{
