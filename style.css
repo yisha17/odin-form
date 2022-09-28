@@ -107,6 +107,9 @@ button{
     font-weight: bold;
     border-radius: 10px;
 }
+button:hover{
+    border: 2px solid blue;
+}
 
 .login{
     margin: 0px 30px 10px;
